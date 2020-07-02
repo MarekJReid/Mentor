@@ -38,7 +38,7 @@ class MailchimpForm extends Component {
         };
         this.state.result == "error"
           ? console.log(data.result)
-          : navigate("/success/success", {
+          : navigate("/success/mailchimp-success", {
               state: { successInfo },
             });
       })

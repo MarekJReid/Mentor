@@ -4,7 +4,8 @@ import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 
 export default function Success(props) {
-    const state = props.location.state.successInfo
+    // const state = props.location.state.successInfo
+    console.log(props)
     return (
         <div>
             <Layout>
@@ -12,9 +13,9 @@ export default function Success(props) {
             <div className="container">
                 <div className="section">
                 <h1>
-                    Congratulations {state.name}!
+                    {/* Congratulations {state.name}! */}
                 </h1>
-                <h5>You have successfully {state.action}</h5>
+                {/* <h5>You have successfully {state.action}</h5> */}
                 helo
                 </div>
             </div>
