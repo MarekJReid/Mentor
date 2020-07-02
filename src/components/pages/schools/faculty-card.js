@@ -48,7 +48,7 @@ export default function FacultyCard() {
                         >Accounting and Bookkeeping Faculty</h4>
                         <div
                         style={{
-                          background: `blue`,
+                          background: `red`,
                           height: `100%`,
                           width: `20%`,
                           display: `flex`,

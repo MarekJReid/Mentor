@@ -15,9 +15,22 @@ const markQaulity = () => {
             style={{
               padding: `2rem`,
             }}
+            data-sal="slide-left"
+            data-sal-delay="100"
+            data-sal-duration="500"
+            data-sal-easing="ease"
           >
-            <div className="portrait">
-            <img src={require("./images/mark.jpg")} />
+            <div className="portrait"
+            
+            >
+              <div className=""
+              data-sal="fade"
+              data-sal-delay="100"
+              data-sal-duration="600"
+              data-sal-easing="ease">
+ <img src={require("./images/mark.jpg")} />
+              </div>
+           
             </div>
             <div className="qoute">
               <p className="left-align"
@@ -61,6 +74,10 @@ const markQaulity = () => {
             style={{
               padding: `2rem`,
             }}
+            data-sal="slide-right"
+            data-sal-delay="200"
+            data-sal-duration="700"
+            data-sal-easing="ease"
           >
             <div className="statement left-align">
               <h2>THERE IS NO SUBSTITUTE FOR QUALITY TRAINING</h2>

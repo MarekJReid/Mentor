@@ -9,7 +9,12 @@ const QouteCoursesBanner = () => {
                 margin: `0`
             }}
             >
-                <div className="container center-align">
+                <div className="container center-align"
+                data-sal="slide-up"
+                data-sal-duration="500"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+                >
                     <h4>
                     “Completing the Diploma of Financial Planning led me to gaining a <strong>promotion</strong> and a pay <strong>increase</strong> of nearly $10,000...”
                     </h4>

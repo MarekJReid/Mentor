@@ -13,11 +13,12 @@ const Footer = () => {
     }
   `);
   return (
-    <footer
+    <div
       className="page-footer red darken-2"
       style={{
-        display: "inline-block",
+       
         width: "100vw",
+        
       }}
     >
       <div className="container">
@@ -76,7 +77,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

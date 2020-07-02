@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import PageTransition from 'gatsby-plugin-page-transitions'
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -12,8 +13,9 @@ const About = () => {
   return (
     <Layout>
       <SEO title="About Us" />
+     
       <Breadcrumb />
-
+      
       <div className="section">
         <div className="container">
           <h1>Welcome to Mentor Education</h1>
@@ -123,7 +125,9 @@ const About = () => {
         </div>
       </div>
       <Link to="/">Go back to the homepage</Link>
+      
     </Layout>
+    
   );
 };
 export default About;

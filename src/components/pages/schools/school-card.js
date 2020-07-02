@@ -22,9 +22,7 @@ export default function SchoolCard() {
                   minHeight: `30%`,
                   minWidth: `100%`,
                   background:
-                    "-moz-linear-gradient(top,  #3648ee 0%, #1e31de 100%)",
-                  background: `-webkit-linear-gradient(top,  #3648ee 0%,#1e31de 100%)`,
-                  background: `linear-gradient(to bottom,  #3648ee 0%,#1e31de 100%)`,
+                    "red",
                   filter: `progid:DXImageTransform.Microsoft.gradient( startColorstr='#3648ee'`,
                   endColorstr: `'#1e31de',GradientType=0 )`,
                   justifyContent: `center`,
