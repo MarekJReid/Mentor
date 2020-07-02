@@ -5,7 +5,6 @@ import Seo from '../../components/seo'
 
 export default function Success(props) {
     const state = props.location.state.successInfo
-    console.log(props.location.state.successInfo)
     return (
         <div>
             <Layout>
